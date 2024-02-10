@@ -1,0 +1,11 @@
+/* @media only screen and (max-width: 600px) {
+
+ 
+   
+  } */
+  p{
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 700;
+  }

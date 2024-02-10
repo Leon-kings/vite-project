@@ -1,0 +1,14 @@
+p{
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    padding-left: 55px;
+  }
+  h3{
+    color: rgb(56, 30, 151);
+    text-align: center;
+    text-decoration: solid;
+    text-decoration: dashed;
+    font-weight: 800;
+  }
