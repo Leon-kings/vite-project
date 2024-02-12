@@ -1,64 +1,44 @@
+// import React from "react"
+// import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai"
+// import { BsFacebook } from "react-icons/bs"
+// import { RiInstagramFill } from "react-icons/ri"
 
-
-// import "./header.css"
-// import { User } from "./User"
-// import { nav } from "../assets/data/data"
-// import { Link } from "react-router-dom"
-// import g from "../images/g.jpg"
-// // import "../../index.css"
-// import "./header.css"
-// export const Header = () => {
-
+// export const Footer = () => {
 //   return (
 //     <>
-//       <header className='header'>
+//       <footer className='boxItems'>
 //         <div className='container flex'>
-//           <div className='logo'>
-//             <img src={g} alt='logo' width='100px' />
+//           <p><i>Leon.Inc</i> </p>
+//           <div className='social'>
+//             <BsFacebook className='icon' />
+//             <RiInstagramFill className='icon' />
+//             <AiFillTwitterCircle className='icon' />
+//             <AiFillLinkedin className='icon' />
 //           </div>
-//           <div className='account '>
-//           <nav>
-//             <ul>
-            
-         
-// </ul>
-//           </nav>        
-            
-          
-//            </div>
 //         </div>
-//       </header>
+//       </footer>
 //     </>
 //   )
 // }
-import React from "react";
-import { User } from "./User"
-import { nav } from "../assets/data/data"
-import { Link } from "react-router-dom"
-import g from "../images/g.jpg"
+import React from 'react'
+import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai"
+import { BsFacebook } from "react-icons/bs"
+import { RiInstagramFill } from "react-icons/ri"
 
-import "./header.css"
-const Footer =()=>{
+function Footer() {
   return (
-        <>
-          <header className='header'>
-            <div className='container flex'>
-              <div className='logo'>
-                <img src={g} alt='logo' width='100px' />
-              </div>
-              <div className='account '>
-              <nav>
-                <ul>
-                
-             
-    </ul>
-              </nav>        
-                
-              
-               </div>
-            </div>
-          </header>
-        </>
-      )
+         <footer className='boxItems'>
+        <div className='container flex'>
+          <p><i>Leon.Inc</i> </p>
+          <div className='social'>
+            <BsFacebook className='icon' />
+            <RiInstagramFill className='icon' />
+            <AiFillTwitterCircle className='icon' />
+            <AiFillLinkedin className='icon' />
+          </div>
+        </div>
+      </footer>
+  )
 }
+
 export default Footer

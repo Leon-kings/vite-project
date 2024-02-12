@@ -88,10 +88,17 @@ header.active {
   .profile{
     visibility: hidden;
   }
+  /* *{
+    margin: 0px;
+    padding: 0px;
+  } */
   header{
     max-width: 100%;
     display: flex;
     flex-direction: row;
+  }
+  .view{
+    visibility: visible;
   }
 }
 

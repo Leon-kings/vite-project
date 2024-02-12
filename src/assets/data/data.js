@@ -10,9 +10,14 @@ export const nav = [
     text: "about",
     url: "/About",
   },
- 
   {
     id: 3,
+    text: "Services",
+    url: "/Services",
+  },
+ 
+  {
+    id: 4,
     text: "Register",
     url: "/Register",
   }
