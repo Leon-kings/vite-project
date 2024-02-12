@@ -61,106 +61,200 @@ function Home() {
 			        </div>
 			{/* header ends */}
 			{/* midd page starts */}
-			<div className='container'>
-		
-<p>The versitile online documentation software that will stimulates the creation of your </p>
-<p>proposal <b> <a href="#">Envitation card</a></b>,<b> <a href="#">students card</a></b>,<b> <a href="#">postal card</a></b>,<b> <a href="#">bussiness card</a></b></p>
 
 			</div>
-			<div className="check">
-	<div className='box b.oxItem/'
+{/* first floww */}
 
->
+<div className='header'>
+      <div className='container grid9'>
+		
 
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam quia nostrum reiciendis aut maxime repellat at nulla accusantium. Ipsa possimus in porro similique adipisci esse cumque fuga accusantium voluptatem deserunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam at reiciendis sit ut quae perspiciatis nihil atque aspernatur. Consequatur sequi dolorem commodi, voluptatibus animi voluptatem iste culpa molestiae laudantium repudiandae. </p>
 
+			</div>
+
+      </div>
+
+      <div className='container grid3'>
+
+<div className='box boxItems'>
 <div className="w3-main w3-content w3-padding" style={{width:"100%", marginTop:"100px"}}>
 
 
   <div className="w3-row-padding w3-padding-16 w3-center" >
     <div className="w3-quarter">
-      <img src={g} style={{width:"80%",height:"400px"}}/>
+    <Link to="/View"> <img src={g} style={{width:"50%",height:"100px"}}/></Link> 
       <h3>Envitation card</h3>
       <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
 	</div>
-	<div className='box boxItems'>
-    <div className="w3-quarter">
-	<img src={g} style={{width:"100%"}}/>
-      <h3>Let Me Tell You About This Steak</h3>
-      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-
-    <div className="w3-quarter">
-	<img src={g} style={{width:"100%"}}/>
-      <h3>Cherries, interrupted</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-      <p>What else?</p>
-    </div>
 	
-    <div className="w3-quarter">
- <img src={g} style={{width:"100%"}}/>
-      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-  </div>		
-  
+   
+
+  </div>
   </div>
 
-  <div className="w3-row-padding w3-padding-16 w3-center">
+<div className='box boxItems'>
+<div className="w3-main w3-content w3-padding" style={{width:"100%", marginTop:"100px"}}>
+
+
+  <div className="w3-row-padding w3-padding-16 w3-center" >
     <div className="w3-quarter">
- <img src={g} style={{width:"100%"}}/>
-      <h3>Envitation Letter</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div className="w3-quarter">
- <img src={g} style={{width:"100%"}}/>
-      <h3>Envitation letter</h3>
-      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div className="w3-quarter">
- <img src={g} style={{width:"100%"}}/>
-      <h3>Envitation letter</h3>
+    <Link to="/View"> <img src={g} style={{width:"50%",height:"100px"}}/></Link> 
+      <h3>card</h3>
       <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
-    <div className="w3-quarter">
-	 <img src={g} style={{width:"100%"}}/>
-      <h3>Le French</h3>
-      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
+	</div>
+	
+   
+
   </div>
-  <div className="w3-row-padding w3-padding-16 w3-center">
+
+  </div>
+
+
+  <div className='box boxItems'>
+<div className="w3-main w3-content w3-padding" style={{width:"100%", marginTop:"100px"}}>
+
+
+  <div className="w3-row-padding w3-padding-16 w3-center" >
     <div className="w3-quarter">
- <img src={g} style={{width:"100%"}}/>
-      <h3>All I Need Is a Popsicle</h3>
-      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div className="w3-quarter">
- <img src={g} style={{width:"100%"}}/>
-      <h3>Salmon For Your Skin</h3>
-      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
-    </div>
-    <div className="w3-quarter">
- <img src={g} style={{width:"100%"}}/>
-      <h3>The Perfect Sandwich, A Real Classic</h3>
+    <Link to="/View"> <img src={g} style={{width:"50%",height:"100px"}}/></Link> 
+      <h3>dcard</h3>
       <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
+	</div>
+	
+   
+
+  </div>
+
+  </div>
+  </div>
+{/* second flow */}
+
+
+<div className='container grid3'>
+
+<div className='box boxItems'>
+<div className="w3-main w3-content w3-padding" style={{width:"100%", marginTop:"100px"}}>
+
+
+  <div className="w3-row-padding w3-padding-16 w3-center" >
     <div className="w3-quarter">
-	 <img src={g} style={{width:"100%"}}/>
-      <h3>Le French</h3>
-      <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    <Link to="/View"> <img src={g} style={{width:"50%",height:"100px"}}/></Link> 
+      <h3>Envitation card</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
+	</div>
+	
+   
+
+  </div>
+  </div>
+
+<div className='box boxItems'>
+<div className="w3-main w3-content w3-padding" style={{width:"100%", marginTop:"100px"}}>
+
+
+  <div className="w3-row-padding w3-padding-16 w3-center" >
+    <div className="w3-quarter">
+    <Link to="/View"> <img src={g} style={{width:"50%",height:"100px"}}/></Link> 
+      <h3>card</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+	</div>
+	
+   
+
+  </div>
+
   </div>
 
 
-</div>
+  <div className='box boxItems'>
+<div className="w3-main w3-content w3-padding" style={{width:"100%", marginTop:"100px"}}>
+
+
+  <div className="w3-row-padding w3-padding-16 w3-center" >
+    <div className="w3-quarter">
+    <Link to="/View"> <img src={g} style={{width:"50%",height:"100px"}}/></Link> 
+      <h3>dcard</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+	</div>
+	
+   
+
+  </div>
+
+  </div>
+  </div>
 
 
 
 
-</div>
+  {/* third flow */}
 
 
-			</div>
+
+  <div className='container grid3'>
+
+<div className='box boxItems'>
+<div className="w3-main w3-content w3-padding" style={{width:"100%", marginTop:"10px"}}>
+
+
+  <div className="w3-row-paddingw3-center" >
+    <div className="w3-quarter">
+    <Link to="/View"> <img src={g} style={{width:"50%",height:"100px"}}/></Link> 
+      <h3>Envitation card</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+	</div>
+	
+   
+
+  </div>
+  </div>
+
+<div className='box boxItems'>
+<div className="w3-main w3-content w3-padding" style={{width:"100%", marginTop:"10px"}}>
+
+
+  <div className="w3-row-padding w3-center" >
+    <div className="w3-quarter">
+    <Link to="/View"> <img src={g} style={{width:"50%",height:"100px"}}/></Link> 
+      <h3>card</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+	</div>
+	
+   
+
+  </div>
+
+  </div>
+
+
+  <div className='box boxItems'>
+<div className="w3-main w3-content " style={{width:"100%", marginTop:"10px"}}>
+
+
+  <div className="w3-row-padding  w3-center" >
+    <div className="w3-quarter">
+    <Link to="/View"> <img src={g} style={{width:"50%",height:"100px"}}/></Link> 
+      <h3>dcard</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+	</div>
+	
+   
+
+  </div>
+
+  </div>
+  </div>
+
 			<div className="share">
 <div className="center">
 <div className='container grid3'>

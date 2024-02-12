@@ -87,10 +87,16 @@
 
   .box {
     border-bottom: 3px dotted #eee;
-    padding-top: 160px;
+    padding-top: 60px;
     padding-bottom: 30px;
   }
-  
+  .header{ width: 100%;}
+  .header p{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
   .box .thumb img {
     width: 100%;
     overflow: hidden;
