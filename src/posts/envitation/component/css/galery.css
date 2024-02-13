@@ -1,0 +1,88 @@
+.galery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.gal1,
+.gal2,
+.gal3,
+.gal4,
+.gal5,
+.gal6,
+.gal7,
+.gal8,
+.gal9,
+.gal12 {
+  margin: 5px;
+}
+
+.gal1 :hover {
+  transform: scale(1.04, 1.06);
+  transition: 1000ms;
+  border-radius: 10px;
+}
+.gal2 :hover {
+  transform: scale(1.04, 1.06);
+  transition: 1000ms;
+  border-radius: 10px;
+}
+
+.gal3 :hover {
+  transform: scale(1.04, 1.06);
+  transition: 1000ms;
+  border-radius: 10px;
+}
+
+.gal4 :hover {
+  transform: scale(1.04, 1.06);
+  transition: 1000ms;
+  border-radius: 10px;
+}
+
+.gal5 :hover {
+  transform: scale(1.04, 1.06);
+  transition: 1000ms;
+  border-radius: 10px;
+}
+
+.gal6 :hover {
+  transform: scale(1.04, 1.06);
+  transition: 1000ms;
+  border-radius: 10px;
+}
+.gal7 :hover {
+  transform: scale(1.04, 1.06);
+  transition: 1000ms;
+  border-radius: 10px;
+}
+.gal8 :hover {
+  transform: scale(1.04, 1.06);
+  transition: 1000ms;
+  border-radius: 10px;
+}
+.gal9 :hover {
+  transform: scale(1.04, 1.06);
+  transition: 1000ms;
+  border-radius: 10px;
+}
+.gal10 :hover {
+  transform: scale(1.04, 1.06);
+  transition: 1000ms;
+  border-radius: 10px;
+}
+.gal11 :hover {
+  transform: scale(1.04, 1.06);
+  transition: 1000ms;
+  border-radius: 10px;
+}
+.gal12 :hover {
+  transform: scale(1.04, 1.06);
+  transition: 1000ms;
+  border-radius: 10px;
+}
+.gal1 image {
+  width: 250px;
+}

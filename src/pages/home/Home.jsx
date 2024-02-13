@@ -1,8 +1,10 @@
 import React from 'react'
 import "../../css/pages/home.css"
 import g from "../../assets/images/g.jpg"
-// import {  IoSettingsOutline } from "react-icons/io5"
-import {  BiAccessibility, BiBall, BiDownload, BiKey, BiMouse, BiPhoneOff } from "react-icons/bi"
+import App from '../../posts/bussiness/App'
+import {   BiDownload, BiKey, BiMouse} from "react-icons/bi"
+import Appstudent from '../../posts/student/Appstudent'
+// import App from '../../posts/envitation/Appenvitat'
 
 import { Link } from 'react-router-dom'
 
@@ -300,9 +302,10 @@ function Home() {
 
   <div className="w3-row-padding w3-padding-16 w3-center" >
     <div className="w3-quarter">
-    <Link to="/View"> <img src={g} style={{width:"80%",height:"500px"}}/></Link> 
-      <h3>Envitation card</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    
+    <App/>
+      <h3>Bussiness card</h3>
+      <p>The best card for your bussiness or your proffessional worker.</p>
     </div>
 	</div>
 	
@@ -317,9 +320,11 @@ function Home() {
 
   <div className="w3-row-padding w3-padding-16 w3-center" >
     <div className="w3-quarter">
-    <Link to="/View"> <img src={g} style={{width:"80%",height:"500px"}}/></Link> 
-      <h3>card</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    <Link to="/View"><Appstudent/> </Link> 
+    <br />
+    <br />
+      <h3>Students card</h3>
+      <p>Just some schools need to identify their students and make them secure by id of schools.</p>
     </div>
 	</div>
 	
@@ -336,6 +341,7 @@ function Home() {
 
   <div className="w3-row-padding w3-padding-16 w3-center" >
     <div className="w3-quarter">
+    {/* <Link to="/View"><Appenvitat/> </Link>  */}
     <Link to="/View"> <img src={g} style={{width:"80%",height:"500px"}}/></Link> 
       <h3>dcard</h3>
       <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
