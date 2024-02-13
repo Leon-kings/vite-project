@@ -43,9 +43,9 @@ const Login =()=>{
   const handleSubmit = (e) =>{
     e.preventDefault();
     // handleSubmit
-    // console.log(values);
+    console.log(values);
     
-    axios.get('http://localhost:8000/users')
+    axios.post('http://localhost:8000/users')
     .then(results=>{
       results.data.map(user=>{
         if(user.email === values.email){
