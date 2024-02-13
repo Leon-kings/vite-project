@@ -4,7 +4,6 @@ import g from "../../assets/images/g.jpg"
 import App from '../../posts/bussiness/App'
 import {   BiDownload, BiKey, BiMouse} from "react-icons/bi"
 import Appstudent from '../../posts/student/Appstudent'
-// import App from '../../posts/envitation/Appenvitat'
 
 import { Link } from 'react-router-dom'
 
@@ -341,8 +340,10 @@ function Home() {
 
   <div className="w3-row-padding w3-padding-16 w3-center" >
     <div className="w3-quarter">
-    {/* <Link to="/View"><Appenvitat/> </Link>  */}
-    <Link to="/View"> <img src={g} style={{width:"80%",height:"500px"}}/></Link> 
+    {/* <Link to="/View"> <HomeEnv/>  </Link>  */}
+    {/* <Link to="/View"> <img src={Cliparts} style={{width:"80%",height:"500px"}}/></Link>  */}
+    <br />
+    <br />
       <h3>dcard</h3>
       <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
