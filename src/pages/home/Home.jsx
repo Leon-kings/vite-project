@@ -6,21 +6,28 @@ import {   BiDownload, BiKey, BiMouse} from "react-icons/bi"
 import Appstudent from '../../posts/student/Appstudent'
 import { Link } from 'react-router-dom'
 import HomeEnv from '../../posts/envit/HomeEnv'
-
+import Slideshow from "../../components/slide/Slideshow"
+// images used on the website
+// import a from "../../assets/images/a.jpg"
+// import Cliparts from "../../assets/images/envitation/Cliparts.png"
+// import png-clipart-wedding-invitation-wedding-invitation-wedding-invitation-card-wedding-anniversary-text-thumbnail from "../../assets/images/envitation/png-clipart-wedding-invitation-wedding-invitation-wedding-invitation-card-wedding-anniversary-text-thumbnail.png"
+import env from  "../../assets/images/envitation/env.png"
+import Letter from "../../assets/images/envitation/Letter.png"
 function Home() {
 	
 	  
 	return (
 	<>
 	  <div className='blog'>
-		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat illum enim molestiae sunt quo voluptatum fugiat saepe asperiores mollitia hic illo, dolores tempore quod minus omnis deleniti laborum, blanditiis aut? Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-			Asperiores tempora quidem animi natus, ex saepe, harum similique itaque at ea earum tempore in quae. Exercitationem quaerat asperiores dolore eos at!</p>
+		
+      <p><h3 style={{fontSize:"15px"}}><b> Create and share all types of beautfull documentation </b></h3>  </p>
+      <p style={{fontSize:"17px"}}>The versatile online document software that will streamline the creation of your proposals, reports, white papers, ebooks, survey results and other types of documents.</p>
 			<div className='container grid3'>
 				    <div className='box boxItems'>
 				<div className='img'>
 			                <div class="thumb">   
 				<div className="inner-content">
-                                <h4>Formal letter
+                                <h4 style={{color:"grey"}}>Formal letter
                                     </h4>
                                 <span><b>Awesome and clean</b>  </span>
                                 <div className="main-border-button">
@@ -28,7 +35,7 @@ function Home() {
                                     <button className='btn' >View All</button></Link>
                                 </div>
                             </div>
-					<img src={g} alt="" />
+					<img src={Letter} alt="" width={190} />
 							</div>
 				</div>
 				
@@ -43,10 +50,10 @@ function Home() {
                                 <span><b>Awesome and clean</b>  </span>
                                 <div className="main-border-button">
                                 <Link to="/Letters"><button className='btn' >View All</button> </Link> 
-                                {/* <Link to="/Letter"></Link> */}
+                             
                                 </div>
                             </div>
-                           <img src={g} alt="" />
+                           <img src={env} alt="" />
                         </div>
 				</div>
 				
@@ -69,11 +76,19 @@ function Home() {
 {/* first floww */}
 
 <div className='header'>
+
+<div className="slide">
+
+
+
+</div>
+
+
       <div className='container grid9'>
 		
 
-<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam quia nostrum reiciendis aut maxime repellat at nulla accusantium. Ipsa possimus in porro similique adipisci esse cumque fuga accusantium voluptatem deserunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam at reiciendis sit ut quae perspiciatis nihil atque aspernatur. Consequatur sequi dolorem commodi, voluptatibus animi voluptatem iste culpa molestiae laudantium repudiandae. </p>
-
+{/* <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam quia nostrum reiciendis aut maxime repellat at nulla accusantium. Ipsa possimus in porro similique adipisci esse cumque fuga accusantium voluptatem deserunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam at reiciendis sit ut quae perspiciatis nihil atque aspernatur. Consequatur sequi dolorem commodi, voluptatibus animi voluptatem iste culpa molestiae laudantium repudiandae. </p> */}
+<p><h2>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document.</h2> </p>
 			</div>
 
       </div>
@@ -90,6 +105,8 @@ function Home() {
       <h3>Envitation card</h3>
       <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
+{/* <Slideshow /> */}
+
 	</div>
 	
    
@@ -262,6 +279,14 @@ function Home() {
   </div>
   </div>
 
+{/* next stage */}
+<div className="container">
+ 
+    <h3>Everything to spice up your documents</h3>
+   <p><h2>
+Ramp up your document design with our huge range of assets. Tap into over 40 charts, graphs, maps, tables, data widgets and icons to transform stats and figures into snackable visuals in your documents.
+    </h2></p>
+</div>
 			<div className="share">
 <div className="center">
 <div className='container grid3'>
