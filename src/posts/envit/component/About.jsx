@@ -2,7 +2,20 @@ import React from 'react'
 
 function About() {
   return (
-    <div>About</div>
+ <>
+ <label><h3>Buzaba tariki :18/08/2018</h3> </label>
+ <p>--- Saa kenda 15h00 :Gusezerana imbere y`Imana REGINA PAXIS-Remera</p>
+ <label> Nyuma yiyo mihango abatumiwe bazakiririrwa mu rugo rw`abageni Kabgayi</label>
+ <label htmlFor="info"> <h3>Kuza kwanyu n`inkunga ikomeye cyane</h3></label>
+ <div className='left-content'>
+ <label> <h4 style={{color:"green"}}><u>Claire</u> </h4></label>
+ <label>+2707878888787</label>
+</div>
+<div className="right-content">
+ <h4 style={{color:"green"}}><u> Claude</u></h4>
+ <label>+250874763637</label> </div>
+ <br />
+ </>
   )
 }
 

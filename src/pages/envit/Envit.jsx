@@ -1,16 +1,14 @@
 import React from 'react'
-import { letter } from '../../assets/data/data'
-import { Link } from 'react-router-dom'
-
-function View() {
+import { Envitation } from '../../assets/data/data'
+import "../../css/posts/envit.css"
+function Envit() {
   return (
-   <>
-   
-   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui deserunt ipsa quam reiciendis sunt odio hic iste laboriosam, non amet culpa eos aliquid corrupti aspernatur totam voluptatem vel omnis ut?</p>
-   <section className='blog'>
+    <>
+    
+    <section className='blog'>
        <div className='container grid3'>
     
-          {letter.map((item) => (
+          {Envitation.map((item) => (
                 
         
                 <div className='box boxItems' key={item.id}>
@@ -28,12 +26,11 @@ function View() {
            
             </div>
         
-   
-        
+  
           </section>
-
-   </>
+    
+    </>
   )
 }
 
-export default View
+export default Envit

@@ -5,7 +5,7 @@ function HomeEnv() {
   return (
     <>
     <Info/>
-    <div>home</div>
+    <br />
     <About/>
     </>
   )

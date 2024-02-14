@@ -9,8 +9,9 @@ import "./App.css"
 import About from "./pages/About/About";
 import Footer from "./components/footer/Footer"
 import Services from "./pages/services/Services";
-
-
+import Letters from "./pages/letters/Letters";
+import Envit from "./pages/envit/Envit";
+import Create from "./pages/create/Create"
 function App() {
 
 
@@ -28,6 +29,9 @@ function App() {
       <Route path="/About" element={<About/>} ></Route>
       <Route path="/Services" element={<Services/>} ></Route>
       <Route path="/View" element={<View/>} ></Route>
+      <Route path="/Letters" element={<Letters/>} ></Route>
+      <Route path="/Envit" element={<Envit/>} ></Route>
+      <Route path="/Create" element={<Create/>} ></Route>
      
     </Routes>
     <br />

@@ -13,8 +13,9 @@ function App() {
           <About />
         
         </div>
-
+ <hr />
       </div>
+     
     </div>
   )
 }

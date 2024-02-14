@@ -7,12 +7,12 @@ export default function Info() {
             <img className="card--image" src={cardImage} alt="profile" />
             <h2> Names: A-Leon</h2>
             <br />
-            <h5>Web Developer</h5>
+            <h5 style={{color:"green"}}>Web Developer</h5>
             <label>Level II</label>
             <div className="info--buttons">
 
 <h3>School email:<b> kingsleon250@gmail.com</b></h3>
-<h5> School contacts: +250-7879-44-577</h5>
+<h3> School contacts: </h3>+250-7879-44-577
             </div>
         </div>
     )

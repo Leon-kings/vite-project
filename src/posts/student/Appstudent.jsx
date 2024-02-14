@@ -5,17 +5,16 @@ import Info from './components/Info'
 function App() {
 
 
-  return (
+  return (<>
     <div className="card--container">
       <div className="card">
         <Info />
-        <div className="card--content">
-         
-        
-        </div>
+
 
       </div>
     </div>
+    <hr />
+    </>
   )
 }
 

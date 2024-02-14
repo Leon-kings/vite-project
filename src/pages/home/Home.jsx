@@ -4,8 +4,8 @@ import g from "../../assets/images/g.jpg"
 import App from '../../posts/bussiness/App'
 import {   BiDownload, BiKey, BiMouse} from "react-icons/bi"
 import Appstudent from '../../posts/student/Appstudent'
-
 import { Link } from 'react-router-dom'
+import HomeEnv from '../../posts/envit/HomeEnv'
 
 function Home() {
 	
@@ -19,12 +19,13 @@ function Home() {
 				    <div className='box boxItems'>
 				<div className='img'>
 			                <div class="thumb">   
-				<div class="inner-content">
+				<div className="inner-content">
                                 <h4>Formal letter
                                     </h4>
                                 <span><b>Awesome and clean</b>  </span>
-                                <div class="main-border-button">
-                                    <button className='btn' >View All</button>
+                                <div className="main-border-button">
+                                  <Link to="/Letters">
+                                    <button className='btn' >View All</button></Link>
                                 </div>
                             </div>
 					<img src={g} alt="" />
@@ -35,13 +36,14 @@ function Home() {
 					<div className='box boxItems'>
 				<div className='img'>
 					
-					<div class="thumb">
-                            <div class="inner-content">
+					<div className="thumb">
+                            <div className="inner-content">
                                 <h4>Envitation card
                                     </h4>
                                 <span><b>Awesome and clean</b>  </span>
-                                <div class="main-border-button">
-                                    <button className='btn' >View All</button>
+                                <div className="main-border-button">
+                                <Link to="/Letters"><button className='btn' >View All</button> </Link> 
+                                {/* <Link to="/Letter"></Link> */}
                                 </div>
                             </div>
                            <img src={g} alt="" />
@@ -58,7 +60,7 @@ function Home() {
 				<p><label>create yours </label> <input type="checkbox" name="checked" id="check" checked /></p>
 				<p><label>Edit document </label> <input type="checkbox" name="checked" id="check" checked /></p>
 				</form>
-				<button className='button'> Create your Oun documentation</button>
+				<button className='button'><Link to="/Create">Create your Oun documentation</Link> </button>
 			        </div>
 			{/* header ends */}
 			{/* midd page starts */}
@@ -94,6 +96,10 @@ function Home() {
 
   </div>
   </div>
+
+
+
+  
 
 <div className='box boxItems'>
 <div className="w3-main w3-content w3-padding" style={{width:"100%", marginTop:"100px"}}>
@@ -209,7 +215,7 @@ function Home() {
     <div className="w3-quarter">
     <Link to="/View"> <img src={g} style={{width:"50%",height:"100px"}}/></Link> 
       <h3>Envitation card</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      <p>Just ...some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
     </div>
 	</div>
 	
@@ -260,26 +266,26 @@ function Home() {
 <div className="center">
 <div className='container grid3'>
 <div className='box boxItems'>
-	<div>
+	<div><Link to="">
 	<BiDownload className='icon' />
 	<h3>Download Documents to use it</h3>
-	<label htmlFor="share">Use offline as high quality PDF ,Images</label>
+	<label htmlFor="share">Use offline as high quality PDF ,Images</label></Link>
 	</div>
 </div>
 
 <div className='box boxItems'>
-	<div>
+	<div><Link to="">
 	<BiKey className='icon' />
 	<h3>Use Document privately</h3>
-	<label htmlFor="share">Use Documents privatly protected by password </label>
+	<label htmlFor="share">Use Documents privatly protected by password </label></Link>
 	</div>
 </div>
 
 <div className='box boxItems'>
-	<div>
+	<div><Link to="">
 	<BiMouse className='icon' />
 	<h3>Brourse all</h3>
-	<label htmlFor="share">Send you a link on email</label>
+	<label htmlFor="share">Send you a link on email</label></Link>
 	</div>
 </div>
 </div>
@@ -340,12 +346,12 @@ function Home() {
 
   <div className="w3-row-padding w3-padding-16 w3-center" >
     <div className="w3-quarter">
-    {/* <Link to="/View"> <HomeEnv/>  </Link>  */}
-    {/* <Link to="/View"> <img src={Cliparts} style={{width:"80%",height:"500px"}}/></Link>  */}
+<HomeEnv/>
     <br />
     <br />
-      <h3>dcard</h3>
-      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    <hr />
+      <h3>Envitation Card</h3>
+      <p>Wedding Envitation ,simply wonderfull celemony.</p>
     </div>
 	</div>
 	

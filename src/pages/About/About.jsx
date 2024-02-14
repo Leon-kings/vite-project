@@ -5,6 +5,7 @@ function About() {
     <>
     <div>
       <h3>About us</h3>
+      {/* <img src="" alt="" /> */}
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat illum enim molestiae sunt quo voluptatum fugiat saepe asperiores mollitia hic illo, dolores tempore quod minus omnis deleniti laborum, blanditiis aut? Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 			Asperiores tempora quidem animi natus, ex saepe, harum similique itaque at ea earum tempore in quae. Exercitationem quaerat asperiores dolore eos at!</p>
     </div>
@@ -13,6 +14,8 @@ function About() {
       <h3>Contact us</h3>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat illum enim molestiae sunt quo voluptatum fugiat saepe asperiores mollitia hic illo, dolores tempore quod minus omnis deleniti laborum, blanditiis aut? Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 			Asperiores tempora quidem animi natus, ex saepe, harum similique itaque at ea earum tempore in quae. Exercitationem quaerat asperiores dolore eos at!</p>
+    <p>+250787944577</p>
+    email:kingsleon250@gmail.com
     </div>
     </>
   )
