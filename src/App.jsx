@@ -13,6 +13,7 @@ import Letters from "./pages/letters/Letters";
 import Envit from "./pages/envit/Envit";
 import Create from "./pages/create/Create"
 import DetailsPages from "./posts/details/DetailsPages"
+import Dashboard from "./dashboard/Dashboard";
 function App() {
 
 
@@ -34,7 +35,7 @@ function App() {
       <Route path="/Envit" element={<Envit/>} ></Route>
       <Route path="/Create" element={<Create/>} ></Route>
       <Route path="/DetailsPages/:id" component={<DetailsPages />} />
-     
+      <Route path="/Dashboard" element={<Dashboard/>} ></Route>
     </Routes>
     <br />
     <br />

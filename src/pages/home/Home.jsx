@@ -114,16 +114,17 @@ function Home() {
               <img src={env} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={Letter} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={DigitalBusinessCard} alt='' style={{ width: "100px", height: "100px", background: "cover" }} />
+              <img src={env} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
+              <img src={env} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
+              <img src={env} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
               {/* second line */}
+              {/* <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
@@ -134,10 +135,7 @@ function Home() {
               <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-
-
+              <img src={g} alt='' style={{ width: "100px", height: "100px" }} /> */}
 
             </section>
 

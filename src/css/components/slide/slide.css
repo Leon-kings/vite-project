@@ -4,6 +4,7 @@
     justify-content: center;
     background-size: cover;
     height: 250px;
+    width: 50%;
   }
   
   .each-slide-effect span {
@@ -16,5 +17,9 @@
     height: 200px;
   } */
   .slide img{
-    height: 250px;
+    height: 350px;
+    background-size: cover;
+    background-position: none;
+    width: 50%;
+    
   }
