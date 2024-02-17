@@ -1,33 +1,34 @@
 const mongoose = require("mongoose")
 
 
-       const UserSchema = new mongoose.Schema({
-        username:{
+       const PostSchema = new mongoose.Schema({
+        tiltle:{
             type:String,
             required:true,
             unique:true,
         },
-        email:{
+       desc:{
             type:String,
             require:true,
             unique:true,
         },
-        password:{
+        photo:{
             type:String,
             require:true,
             unique:true,
         },
-        fullname:{
+       username:{
             type:String,
             required:true,
             unique:true,
         },
-        tel:{
-            type:String,
+        category:{
+            type:Array,
+            
             required:true,
-            unique:true,
-        },
+        }
+
        },
        {timestamps: true} 
        );
-                     module.exports = mongoose.model("User", UserSchema);
+                     module.exports = mongoose.model("Post", PostSchema);
