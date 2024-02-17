@@ -17,6 +17,10 @@
     margin-bottom: 20px;
   
   }
+  .icon{
+    width: 35px;
+    height: 35px;
+  }
   .container {
     margin: 20px 0;
     /* float: left; */
@@ -56,6 +60,12 @@
      flex-direction: column;
      flex-wrap: wrap;
     }
+    .leftbutton{
+  visibility: hidden;
+    }
+    body{
+      background-color: #ddcdcd;
+    }
   }
 .form{
   display: inline;
@@ -70,7 +80,10 @@
 }
 
 
-
+.checked{
+  width: 28px;
+  height: 28px;
+}
 
 
 
@@ -200,8 +213,9 @@
     margin-bottom: 20px;
   }
   .btn{
-    width: 150px;
+    width: auto;
     background-color: #997d7d;
+   
   }
   
 

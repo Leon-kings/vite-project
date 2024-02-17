@@ -78,6 +78,7 @@ if(user.email !== values.email || user.password !== values.password){
   }
   return(
     <>
+     <p style={{visibility:"hidden"}}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos distinctio iste eius. Qui pariatur obcaecati quae doloribus tenetur cum ab autem, animi inventore accusantium assumenda quisquam eos magnam consectetur voluptatem.</p>
     <div className="app">
       <form onSubmit={handleSubmit}>
         <h1>Log in</h1>

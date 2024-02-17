@@ -1,19 +1,74 @@
 import React, { useState } from "react"
-import "./details.css"
-// import "../../components/header/header.css"
-
-// import { BsPencilSquare } from "react-icons/bs"
-// import { AiOutlineDelete } from "react-icons/ai"
+import "../../css/posts/details/single.css"
 import { useParams } from "react-router-dom"
 import { useEffect } from "react"
-import { letter} from "../../assets/data/data"
+// import download from "../../assets/images/dounload.jpg"
 
-export const DetailsPages = () => {
+function DetailsPages () {
+  const blog = [
+    {
+      id: 1,
+      title: "Envitation",
+      desc: "Wedding envitation ",
+      category: "envitation",
+      // cover: "../../",
+  
+    },
+  
+    {
+      id: 2,
+      title: "Student card",
+      desc: "Card of your students",
+      category: "student",
+      cover: "../images/download.jpg",
+  
+    },
+    {
+      id: 3,
+      title: "Bussiness card",
+      desc: "Are you owner of a business here you can pik a card for your business",
+      category: "business",
+      cover: "../images/download.jpg",
+  
+    },
+    {
+      id: 4,
+      title: "Student card",
+      desc: "Card of your students",
+      category: "student",
+      cover: "../images/blogs/download (1).jpg",
+  
+    },
+    {
+      id: 5,
+      title: "Bussiness card",
+      desc: "Are you owner of a business here you can pik a card for your business",
+      category: "business",
+      cover: "../images/blogs/images (1).jpg",
+  
+    },
+    {
+      id: 6,
+      title: "Student card",
+      desc: "Card of your students",
+      category: "student",
+      cover: "../images/download.jpg",
+  
+    },
+    {
+      id: 7,
+      title: "Bussiness card",
+      desc: "Are you owner of a business here you can pik a card for your business",
+      category: "business",
+      cover: "../images/download.jpg",
+  
+    },
+  ]  
   const { id } = useParams()
   const [blogs, setBlogs] = useState(null)
 
  useEffect(() => {
-    let blogs = letter.find((blogs) => blogs.id === parseInt(id))
+    let blogs = blog.find((blogs) => blogs.id === parseInt(id))
     if (blogs) {
       setBlogs(blogs)
     }
@@ -25,7 +80,7 @@ export const DetailsPages = () => {
         <section className='singlePage'>
           <div className='container'>
             <div className='left'>
-              <img src={letter.cover} alt='' />
+              <img src={blog.cover} alt='' />
             </div>
 
            
@@ -35,3 +90,4 @@ export const DetailsPages = () => {
     </>
   )
 }
+export default DetailsPages

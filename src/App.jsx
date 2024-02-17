@@ -12,6 +12,7 @@ import Services from "./pages/services/Services";
 import Letters from "./pages/letters/Letters";
 import Envit from "./pages/envit/Envit";
 import Create from "./pages/create/Create"
+import DetailsPages from "./posts/details/DetailsPages"
 function App() {
 
 
@@ -32,6 +33,7 @@ function App() {
       <Route path="/Letters" element={<Letters/>} ></Route>
       <Route path="/Envit" element={<Envit/>} ></Route>
       <Route path="/Create" element={<Create/>} ></Route>
+      <Route path="/DetailsPages/:id" component={<DetailsPages />} />
      
     </Routes>
     <br />

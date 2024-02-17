@@ -32,7 +32,7 @@ const logout =()=>{
             {profileOpen && (
               <div className='openProfile boxItems' onClick={close}>
                 <Link to='/account'>
-                  <div className='image'>
+                <div className='image'>
                     <div className='img'>
                       <img src={g} alt='' />
                     </div>
@@ -40,7 +40,7 @@ const logout =()=>{
                       <h4>Leon</h4>
                       <label>Kigali,Rwanda</label>
                     </div>
-                  </div>
+                  </div>  
                 </Link>
                 <Link to='/Register'>
                   <li className='box'>
