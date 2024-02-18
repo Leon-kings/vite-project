@@ -15,17 +15,29 @@ const images = [
 ];
 function App() {
   return (
-    <div className="box">
+    <div className="box" id="root">
+            <div className='img'>
+              <div class="thumb">
+              <div className="inner-content">
+                  <h4 style={{ color: "red" }}> Ramp up your document design with our huge range of assets. Tap into over 40 charts, graphs, maps, tables,
+                   data widgets and icons to transform stats and figures into snackable visuals in your documents.
+                  </h4>
+                 
+                </div>
       <Carousel useKeyboardArrows={true}>
         {images.map((URL, index) => (
           <div className="slide">
-            <img alt="sample_file" src={URL} key={index} />
+            <img src={URL} key={index} />
           </div>
         ))}
       </Carousel>
 
 
 
+               
+                {/* <img src={Letter} alt="" width={190} /> */}
+              </div>
+            </div>
 
       
     </div>

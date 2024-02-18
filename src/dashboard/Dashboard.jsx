@@ -7,7 +7,7 @@ function Dashboard() {
   return (
    <>
    
-
+<p style={{visibility:"hidden"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, iste. Reiciendis hic deleniti recusandae doloribus molestiae sunt perspiciatis corporis, accusamus nisi, inventore incidunt itaque aliquam temporibus, exercitationem eius! Doloremque, iure.</p>
   <div class="contai">
     {/* <nav>
       <div className="navbar">
@@ -53,8 +53,17 @@ function Dashboard() {
       <div className="main-body">
         {/* <h3>Welcome</h3> */}
       
-
-
+<div className="grid9">
+<div className="left" style={{width:"250px"}}>
+  <div style={{backgroundColor:"black",display:"inline-list-item",display:"flex",flexDirection:"column"}}>
+    {/* <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate laudantium, distinctio temporibus veritatis expedita iure aut, error ipsum dolore, est provident facilis. Ducimus impedit rem facere, quos qui nihil sint.</p> */}
+    <ul>
+<li> <Button><BiUser /></Button></li>
+<li> <Button><BiUser /></Button></li>
+<li> <Button><BiUser /></Button></li>
+    </ul>
+  </div>
+</div>
 <div className="container grid3">
       <div className="job_card">
         <div className="job_details">
@@ -68,7 +77,7 @@ function Dashboard() {
         </div>
         <div className="job_salary">
           <h4> <Link to={'/viewUsers'}>All users</Link> </h4>
-          {/* <span>1 days ago</span> */}
+          
         </div>
       </div>
       
@@ -85,16 +94,22 @@ function Dashboard() {
           
         </div>
       </div>
-
       <div className="job_card">
         <div className="job_details">
 
           <div className="text">
           <Button><BiUser /></Button>
-           
+            
           </div>
         </div>
         <div className="job_salary">
+          <h4><Link to={'/viewDocs'}>All Documents</Link></h4>
+          
+        </div>
+      </div>
+
+      
+        {/* <div className="job_salary">
         <h4><Link to={'/viewDocs'}>All Documents</Link></h4>
           
         </div>
@@ -124,14 +139,18 @@ function Dashboard() {
 <div className="job_salary">
 <h4><Link to={'/viewDocs'}>All Documents</Link></h4>
 
-</div>
-      </div>
+</div> */}
+    
+    </div>
     </div>
     </div>
     </section>
   </div>
-
-   
+<br />
+<br />
+<br />
+<br /> 
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum itaque in accusantium vero, veniam tempora laboriosam tempore. Voluptatem recusandae accusantium iure commodi temporibus provident architecto sed dignissimos? Voluptatum, vitae illo!</p>
    </>
   )
 }

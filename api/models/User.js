@@ -5,7 +5,7 @@ const mongoose = require("mongoose")
         username:{
             type:String,
             required:true,
-            unique:true,
+           
         },
         email:{
             type:String,
@@ -15,22 +15,14 @@ const mongoose = require("mongoose")
         password:{
             type:String,
             require:true,
-            unique:true,
+        
         },
         fullname:{
             type:String,
             required:true,
-            unique:true,
+       
         },
-        tel:{
-            type:String,
-            required:true,
-            unique:true,
-        },
-        profilePc:{
-            type:String,
-            default:""
-        },
+       
        },
        {timestamps: true} 
        );

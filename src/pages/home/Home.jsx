@@ -25,6 +25,7 @@ function Home() {
         <Slideshow />
 
       </div>
+      <p style={{ fontSize: "17px",visibility:"hidden" }}>The versatile online document software that will streamline the creation of your proposals, reports, white papers, ebooks, survey results and other types of documents.</p>
       <div className='blog'>
 
         <p><h3 style={{ fontSize: "15px" }}><b> Create and share all types of beautfull documentation </b></h3>  </p>
@@ -92,21 +93,6 @@ function Home() {
             <section style={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
 
 
-             {/* {blog.map((item) => (
-
-
-                <div className='box ' key={item.id}>
-
-                  <div className='img' >
-                    <Link to={`/DetailsPages/${item.id}`}>
-                      <img src={item.cover}  style={{ width: "100px", height: "100px" }} />
-                    </Link>
-                  </div>
-
-                </div>
-              ))},  */}
-
-
        
 {/* seconds */}
 
@@ -124,73 +110,16 @@ function Home() {
               <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
               {/* second line */}
-              {/* <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} /> */}
+  
 
             </section>
 
           </div>
 
         </div><p>
-        <h2>The best card for your bussiness,students,documents for your offices or your proffessional worker.The best choise ,best quality choose one you like amongs different category we provide here on the page</h2></p>
-        {/* <p></p>
-        <div className='container grid3'>
+        <h2>The best card for your bussiness,students,documents for your offices or your proffessional worker.
+          The best choise ,best quality choose one you like amongs different category we provide here on the page</h2></p>
 
-          <div className='box boxItems'>
-            <div className="w3-main w3-content w3-padding" style={{ width: "100%", marginTop: "100px" }}>
-
-
-              <div className="w3-row-padding w3-padding-16 w3-center" >
-                <div className="w3-quarter">
-                  <Link to="/Envit"> <img src={env} style={{ width: "50%", height: "100px" }} /></Link>
-                  <h3>Envitation card</h3>
-                  <p>Choose one of your favoulite envitation to envite your familliar friends.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className='box boxItems'>
-            <div className="w3-main w3-content w3-padding" style={{ width: "100%", marginTop: "100px" }}>
-
-
-              <div className="w3-row-padding w3-padding-16 w3-center" >
-                <div className="w3-quarter">
-                  <Link to="/Scard"><img src={DigitalBusinessCard} style={{ width: "50%", height: "100px" }} /> </Link>
-                  <h3>Student card</h3>
-                  <p>Choose your card to your students and your college .</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className='box boxItems'>
-            <div className="w3-main w3-content w3-padding" style={{ width: "100%", marginTop: "100px" }}>
-
-
-              <div className="w3-row-padding w3-padding-16 w3-center" >
-                <div className="w3-quarter">
-                  <Link to="/View"> <img src={Letter} style={{ width: "50%", height: "100px" }} /></Link>
-                  <h3>Official Letter</h3>
-                  <p>Some proffesional job or services require some formal letters so,choose one according to you wish.</p>
-                </div>
-              </div>
-
-
-
-            </div>
-
-          </div>
-        </div>
         {/* second flow */}
 
 
