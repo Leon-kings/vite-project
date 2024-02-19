@@ -25,7 +25,7 @@ export const Header = () => {
                   <Link to={link.url}>{link.text}</Link>
                 </li>
               ))}
-              <li className="right"><User /></li>
+              {/* <li className="right"><User /></li> */}
 
          
 </ul>

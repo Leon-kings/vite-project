@@ -15,6 +15,9 @@ import "../../css/components/blog/blog.css"
 import Apps from '../../posts/official letter/student/Apps'
 import Official from "../../posts/official letter/legal/Official"
 import AppC from '../../posts/rectCard/AppC'
+import hh from "../../assets/images/hh.jpg"
+import hg from "../../assets/images/hg.jpg"
+import hs from "../../assets/images/hs.jpg"
 function Home() {
  
 
@@ -100,15 +103,15 @@ function Home() {
               <img src={env} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={Letter} alt='' style={{ width: "100px", height: "100px" }} />
               <img src={DigitalBusinessCard} alt='' style={{ width: "100px", height: "100px", background: "cover" }} />
-              <img src={env} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={env} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={env} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
-              <img src={g} alt='' style={{ width: "100px", height: "100px" }} />
+              <img src={hs} alt='' style={{ width: "100px", height: "100px" }} />
+              <img src={hh} alt='' style={{ width: "100px", height: "100px" }} />
+              <img src={hg} alt='' style={{ width: "100px", height: "100px" }} />
+              <img src={hs} alt='' style={{ width: "100px", height: "100px" }} />
+              <img src={hh} alt='' style={{ width: "100px", height: "100px" }} />
+              <img src={hg} alt='' style={{ width: "100px", height: "100px" }} />
+              <img src={hs} alt='' style={{ width: "100px", height: "100px" }} />
+              <img src={hh} alt='' style={{ width: "100px", height: "100px" }} />
+              <img src={hg} alt='' style={{ width: "100px", height: "100px" }} />
               {/* second line */}
   
 
@@ -152,7 +155,7 @@ function Home() {
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"> <img src={g} style={{ width: "50%", height: "100px" }} /></Link>
+                  <Link to="/View"> <img src={hh} style={{ width: "50%", height: "100px" }} /></Link>
                   <h3>card</h3>
                   <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
                 </div>
@@ -171,7 +174,7 @@ function Home() {
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"> <img src={g} style={{ width: "50%", height: "100px" }} /></Link>
+                  <Link to="/View"> <img src={hg} style={{ width: "50%", height: "100px" }} /></Link>
                   <h3>dcard</h3>
                   <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
                 </div>
@@ -199,7 +202,7 @@ function Home() {
 
               <div className="w3-row-paddingw3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"> <img src={g} style={{ width: "50%", height: "100px" }} /></Link>
+                  <Link to="/View"> <img src={hh} style={{ width: "50%", height: "100px" }} /></Link>
                   <h3>Envitation card</h3>
                   <p>Just ...some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
                 </div>
@@ -216,7 +219,7 @@ function Home() {
 
               <div className="w3-row-padding w3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"> <img src={g} style={{ width: "50%", height: "100px" }} /></Link>
+                  <Link to="/View"> <img src={hg} style={{ width: "50%", height: "100px" }} /></Link>
                   <h3>card</h3>
                   <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
                 </div>
@@ -235,7 +238,7 @@ function Home() {
 
               <div className="w3-row-padding  w3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"> <img src={g} style={{ width: "50%", height: "100px" }} /></Link>
+                  <Link to="/View"> <img src={hh} style={{ width: "50%", height: "100px" }} /></Link>
                   <h3>dcard</h3>
                   <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
                 </div>

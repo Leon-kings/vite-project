@@ -10,6 +10,7 @@ const newUser = new User({
     username:req.body.username,
     password:hashedPass,
     email:req.body.email,
+    fullname:req.body.fullname,
  
 
 })
@@ -29,11 +30,11 @@ res.status(200).json({
     try{
         const user = await User.findOne({ username:req.body.username
             
-        })!= user && res.status(400).json("Wrong cridentials");
-        const validated = await bcrypt.compare(req.body.password , user.password)
-        != validated && res.status(400).json("Wrong cridentials");
+        });! user && res.status(400).json("Wrong cridentials");
+        const validated = await bcrypt.compare(req.body.password , user.password);
+        ! validated && res.status(400).json("Wrong cridentials");
         const {password, ... others} = user._doc
-res.status(200).json(others)
+res.status(200).json(user)
     }catch(err){
         res.status(500).json(err);
     }
