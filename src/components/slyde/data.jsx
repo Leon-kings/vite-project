@@ -2,7 +2,7 @@ const people = [
     {
       id: 1,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg',
+        'https://i.pinimg.com/736x/20/09/ba/2009ba66afac5724c4686edf6e81a0ab.jpg',
       name: 'letter',
       title: 'office letter',
       quote:
@@ -11,7 +11,7 @@ const people = [
     {
       id: 2,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
+        'https://cdn3.slideserve.com/6851139/friendly-letter-n.jpg',
       name: 'Student Cards',
       title: 'Student Cards',
       quote:
