@@ -29,7 +29,7 @@ const people = [
     {
       id: 4,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
+        'https://literacyplease.com/wp-content/uploads/2021/04/google-friendly-letter-format-768x994.png',
       name: 'friendly letter',
       title: 'Friendly letter',
       quote:
