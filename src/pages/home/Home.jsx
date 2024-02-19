@@ -1,13 +1,13 @@
 import React from 'react'
 import "../../css/pages/home.css"
-import g from "../../assets/images/g.jpg"
+// import g from "../../assets/images/g.jpg"
 import App from '../../posts/bussiness/App'
 import { BiDownload, BiKey, BiMouse } from "react-icons/bi"
 import Appstudent from '../../posts/student/Appstudent'
 import { Link } from 'react-router-dom'
 import HomeEnv from '../../posts/envit/HomeEnv'
-import Slideshow from "../../components/slide/Slideshow"
-import { blog } from '../../assets/data/data'
+// import Slideshow from "../../components/slide/Slideshow"
+// import { blog } from '../../assets/data/data'
 import env from "../../assets/images/envitation/env.png"
 import Letter from "../../assets/images/envitation/Letter.png"
 import DigitalBusinessCard from "../../assets/images/student/DigitalBusinessCard.png"
@@ -18,6 +18,8 @@ import AppC from '../../posts/rectCard/AppC'
 import hh from "../../assets/images/hh.jpg"
 import hg from "../../assets/images/hg.jpg"
 import hs from "../../assets/images/hs.jpg"
+// import AppSlide from "../../components/slyde/AppSlideSlide"
+import AppSlide from "../../components/slyde/AppSlide"
 function Home() {
  
 
@@ -25,8 +27,8 @@ function Home() {
     <>
       <div>
 
-        <Slideshow />
 
+<AppSlide />
       </div>
       <p style={{ fontSize: "17px",visibility:"hidden" }}>The versatile online document software that will streamline the creation of your proposals, reports, white papers, ebooks, survey results and other types of documents.</p>
       <div className='blog'>
@@ -42,8 +44,9 @@ function Home() {
                   </h4>
                   <span><b>Awesome and clean</b>  </span>
                   <div className="main-border-button">
-                    <Link to="/Letters">
-                      <button className='btn' >View All</button></Link>
+                    {/* <Link to="/Letters"> */}
+                      <button className='btn' >View All</button>
+                      {/* </Link> */}
                   </div>
                 </div>
                 <img src={Letter} alt="" width={190} />
@@ -61,7 +64,9 @@ function Home() {
                     </h4>
                     <span><b>Awesome and clean</b>  </span>
                     <div className="main-border-button">
-                      <Link to="/Letters"><button className='btn' >View All</button> </Link>
+                      {/* <Link to="/Letters"> */}
+                        <button className='btn' >View All</button>
+                         {/* </Link> */}
 
                     </div>
                   </div>
@@ -134,10 +139,10 @@ function Home() {
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-                  <Link to="/Envit">
+                  {/* <Link to="/Envit"> */}
 
                     <img src={Letter} style={{ width: "50%", height: "100px" }} />
-                  </Link>
+                  {/* </Link> */}
                   <br />
                   <h3>Friendly Letter</h3>
                   <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
@@ -155,7 +160,9 @@ function Home() {
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"> <img src={hh} style={{ width: "50%", height: "100px" }} /></Link>
+                  <Link to="/View"> 
+                  <img src={hh} style={{ width: "50%", height: "100px" }} />
+                  </Link>
                   <h3>card</h3>
                   <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
                 </div>
@@ -174,7 +181,9 @@ function Home() {
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"> <img src={hg} style={{ width: "50%", height: "100px" }} /></Link>
+                  {/* <Link to="/View">  */}
+                  <img src={hg} style={{ width: "50%", height: "100px" }} />
+                  {/* </Link> */}
                   <h3>dcard</h3>
                   <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
                 </div>
@@ -202,7 +211,9 @@ function Home() {
 
               <div className="w3-row-paddingw3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"> <img src={hh} style={{ width: "50%", height: "100px" }} /></Link>
+                  {/* <Link to="/View">  */}
+                  <img src={hh} style={{ width: "50%", height: "100px" }} />
+                  {/* </Link> */}
                   <h3>Envitation card</h3>
                   <p>Just ...some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
                 </div>
@@ -219,7 +230,9 @@ function Home() {
 
               <div className="w3-row-padding w3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"> <img src={hg} style={{ width: "50%", height: "100px" }} /></Link>
+                  {/* <Link to="/View">  */}
+                  <img src={hg} style={{ width: "50%", height: "100px" }} />
+                  {/* </Link> */}
                   <h3>card</h3>
                   <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
                 </div>
@@ -238,7 +251,9 @@ function Home() {
 
               <div className="w3-row-padding  w3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"> <img src={hh} style={{ width: "50%", height: "100px" }} /></Link>
+                  {/* <Link to="/View">  */}
+                  <img src={hh} style={{ width: "50%", height: "100px" }} />
+                  {/* </Link> */}
                   <h3>dcard</h3>
                   <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
                 </div>
@@ -279,7 +294,8 @@ function Home() {
               </div>
 
               <div className='box boxItems'>
-                <div><Link to="">
+                <div>
+                  <Link to="">
                   <BiMouse className='icon' />
                   <h3>Brourse all</h3>
                   <label htmlFor="share">Send you a link on email</label></Link>
@@ -322,7 +338,9 @@ function Home() {
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"><Appstudent /> </Link>
+                  {/* <Link to="/View"> */}
+                    <Appstudent /> 
+                    {/* </Link> */}
                   <br />
                   <br />
                   <h3>Students card</h3>
@@ -367,7 +385,9 @@ function Home() {
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"><Apps /> </Link>
+                  {/* <Link to="/View"> */}
+                    <Apps /> 
+                    {/* </Link> */}
                   <h3>Company internal letter</h3>
                   <p>Just some internal company letter to inform members some changes happened.</p>
                 </div>
@@ -384,11 +404,11 @@ function Home() {
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"> 
+                  {/* <Link to="/View">  */}
                   
                   <Official />
                   
-                  </Link>
+                  {/* </Link> */}
                   <h3>Official letter</h3>
                   <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
                 </div>
@@ -407,9 +427,9 @@ function Home() {
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"> 
+                  {/* <Link to="/View">  */}
                   <AppC />
-                  </Link>
+                  {/* </Link> */}
                 <hr  /> 
                   <h3>Student rectangular card</h3>
                   <p>An identification for your students.</p>
