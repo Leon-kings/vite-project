@@ -76,7 +76,7 @@ function Home() {
 
             </div>
           </div>
-          <div className='box boxItems'>
+          <div className='box boxItems'style={{paddingTop:"0px"}}>
             <p><button>Create</button>Documents
               <h4>Make proffessional documentation in a few seconds</h4></p>
             <form className='form'>
