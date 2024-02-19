@@ -11,7 +11,7 @@ const people = [
     {
       id: 2,
       image:
-        'https://cdn3.slideserve.com/6851139/friendly-letter-n.jpg',
+        'https://cdn10.bigcommerce.com/s-96q913m/products/150/images/1025/Generic_AE_Card_Product_Student__17772.1597112266.600.600.jpg?c=2',
       name: 'Student Cards',
       title: 'Student Cards',
       quote:
@@ -20,7 +20,7 @@ const people = [
     {
       id: 3,
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959121/person-1_aufeoq.jpg',
+        'https://accuxel.com/wp-content/uploads/Foreign-Wedding-Invitation-Cards.jpg',
       name: 'Envitation Cards',
       title: 'Envitation Cards',
       quote:

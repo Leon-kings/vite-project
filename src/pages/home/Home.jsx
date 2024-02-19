@@ -78,7 +78,7 @@ function Home() {
           </div>
           <div className='box boxItems'>
             <p><button>Create</button>Documents
-              <h2>Make proffessional documentation in a few seconds</h2></p>
+              <h4>Make proffessional documentation in a few seconds</h4></p>
             <form className='form'>
               <p>	<label>More faster <input type="checkbox" name="checked" id="check" className='checked' checked /></label></p>
               <p><label>view more</label> <input type="checkbox" name="checked" id="check" className='checked' checked /></p>
@@ -94,7 +94,7 @@ function Home() {
         {/* first floww */}
 
         <div className='header'>
-          <p><h2>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document.</h2> </p>
+          <p>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document. </p>
 
           <div className="slide">
 
@@ -125,8 +125,8 @@ function Home() {
           </div>
 
         </div><p>
-        <h2>The best card for your bussiness,students,documents for your offices or your proffessional worker.
-          The best choise ,best quality choose one you like amongs different category we provide here on the page</h2></p>
+        <h4>The best card for your bussiness,students,documents for your offices or your proffessional worker.
+          The best choise ,best quality choose one you like amongs different category we provide here on the page</h4></p>
 
         {/* second flow */}
 
@@ -270,9 +270,9 @@ function Home() {
         <div className="container">
 
           <h3>Everything to spice up your documents</h3>
-          <p><h2>
+          <p><h4>
             Ramp up your document design with our huge range of assets. Tap into over 40 charts, graphs, maps, tables, data widgets and icons to transform stats and figures into snackable visuals in your documents.
-          </h2></p>
+          </h4></p>
         </div>
         <div className="share">
           <div className="center">
