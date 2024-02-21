@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState } from "react"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import View from "./pages/view/View";
 import Register from "./pages/form/register/Register"
@@ -14,8 +14,18 @@ import Envit from "./pages/envit/Envit";
 import Create from "./pages/create/Create"
 import DetailsPages from "./posts/details/DetailsPages"
 import Dashboard from "./dashboard/Dashboard";
-function App() {
 
+function App() {
+     const [backendData,setBackEndData]= useState([{}]);
+     useEffect(()=>{
+      fetch('https://getcard.onrender.com/users')
+      .then(
+        response=>response.data
+        
+      ).then(data=>{
+        setBackEndData(data);
+      })
+     }, [])
 
   return (
     <>

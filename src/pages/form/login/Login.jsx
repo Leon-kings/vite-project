@@ -1,4 +1,4 @@
-import  { useState } from "react";
+import  { useEffect, useState } from "react";
 import React from "react";
 import "../../../css/form/universal.css"
 import FormInput from "../../../components/action/FormInput"
@@ -15,7 +15,7 @@ const Login =()=>{
     password:"",
   
   });
-  const Navigate=useNavigate();
+  const Navigate =useNavigate();
   const inputs=[
   
  
@@ -40,39 +40,29 @@ const Login =()=>{
       required:true
     },
   ];
-  const handleSubmit = (e) =>{
+
+// fetching data from database
+         // handleSubmit
+  const handleSubmit = async(e) =>{
     e.preventDefault();
-    // handleSubmit
-    console.log(values);
-    
-    axios.post('http://localhost:8000/users')
-    .then(results=>{
-      results.data.map(user=>{
-        if(user.email === values.email){
-          if(user.password === values.password){
-alert('Login successfully');
-
-Navigate('/Home');
-if(user.email !== values.email || user.password !== values.password){
-  alert('you have to sign up first');
-  Navigate('/Register');
-}
-          }else {
-           
-          console.log('Wrong password')
-          }
-        }
-        else{
-          console.log('invalid input')
-        }
+    try{
+     
+      const dt = await axios.post('https://getcard.onrender.com/users/auth',values)
+      .then(() =>{
+        alert('User Logged in successfully');
+       Navigate('/')
+        
       })
-    })
+    }
+      catch(err){
+        console.log(err)
+      }
+ 
+  }; 
 
 
 
-
-
-  };
+ 
   const onChange =(e) =>{
     setValues({...values,[e.target.name]:e.target.value});
   }

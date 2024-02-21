@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import  { useState } from "react";
 import "../../../css/form/universal.css"
 import FormInput from "../../../components/action/FormInput"
@@ -7,17 +7,17 @@ import axios from "axios";
 
 const App =()=>{
   const [values,setValues] = useState({
-    username:"",
+    fullname:"",
     email:"",
-  
+  phone:"",
     password:"",
-    confirmPassword:"",
+    // confirmPassword:"",
   });
   const Navigate =useNavigate()
   const inputs=[
     {
       id:1,
-      name:"username",
+      name:"fullname",
       type:"text",
       placeholder:"full names",
       errorMessage:"username should be 3-16 characters and should incloude an symbols",
@@ -45,19 +45,19 @@ const App =()=>{
       required:true
     },
 
-    {
-      id:4,
-      name:"confirmpassword",
-      type:"password",
-      placeholder:"Confirm password",
-      errorMessage:"password don`t match",
-      label:"Confirm password",
-      pattern:values.password,
-      required:true
-    },
+    // {
+    //   id:4,
+    //   name:"confirmpassword",
+    //   type:"password",
+    //   placeholder:"Confirm password",
+    //   errorMessage:"password don`t match",
+    //   label:"Confirm password",
+    //   pattern:values.password,
+    //   required:true
+    // },
     
     {
-      id:5,
+      id:4,
       name:"telephone",
       type:"phone",
       placeholder:"phone number",
@@ -68,21 +68,47 @@ const App =()=>{
     
 
   ];
-  const handleSubmit = (e) =>{
+
+// fetching data
+
+const [backendData,setBackEndData]= useState([]);
+useEffect(()=>{
+  const getData = async() =>{
+    const response = await axios.get('https://getcard.onrender.com/users')
+if(response){
+  setBackEndData(response.data)
+}else{
+  console.log(response)
+}
+
+
+   }
+getData()
+}, [])
+console.log(backendData);
+// fetching ends
+
+
+  const handleSubmit = async(e) =>{
     e.preventDefault();
-    // handleSubmit
-    // console.log(values);
- 
-    
-    
-    axios.post('http://localhost:8000/users',values)
+  // console.log(values);
+    try{
+     
+    const dt = await axios.post('https://getcard.onrender.com/users',values)
     .then(() =>{
       alert('User Registered successfully');
-      Navigate('/');
+     Navigate('/login')
+      
     })
-    .catch(err =>console.log(err))
+  }
+    catch(err){
+      console.log(err)
+    }
  
   };
+
+
+
   const onChange =(e) =>{
     setValues({...values,[e.target.name]:e.target.value});
   }
