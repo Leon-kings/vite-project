@@ -14,26 +14,26 @@ import Envit from "./pages/envit/Envit";
 import Create from "./pages/create/Create"
 import DetailsPages from "./posts/details/DetailsPages"
 import Dashboard from "./dashboard/Dashboard";
+// import Hm from "./user/home/Hm";
+// import { AuthProvider } from './pages/Auth/Autho';
+import Cv from "./pages/cv/Cv"
+import Envmemo from "./pages/envitation/Envmemo"
+import Bsns from "./pages/bsns/Bsns"
+import Fletter from "./pages/fletter/Fletter"
+import Stdnt from "./pages/stdnt/Stdnt"
+
+
 
 function App() {
-     const [backendData,setBackEndData]= useState([{}]);
-     useEffect(()=>{
-      fetch('https://getcard.onrender.com/users')
-      .then(
-        response=>response.data
-        
-      ).then(data=>{
-        setBackEndData(data);
-      })
-     }, [])
+ 
 
   return (
     <>
  <BrowserRouter>
-   
+
     <Header/>
     <br />
-    <br />
+  
     <Routes>
       <Route path="/Login" element={<Login/>} ></Route>
       <Route path="/Register" element={<Register/>} ></Route>
@@ -44,12 +44,19 @@ function App() {
       <Route path="/Letters" element={<Letters/>} ></Route>
       <Route path="/Envit" element={<Envit/>} ></Route>
       <Route path="/Create" element={<Create/>} ></Route>
-      <Route path="/DetailsPages/:id" component={<DetailsPages />} />
+      <Route path="/details/:id" component={<DetailsPages />} />
       <Route path="/Dashboard" element={<Dashboard/>} ></Route>
+      {/* <Route path="/Home" element={<Hm/>} ></Route> */}
+                        <Route path="/Stdnt" element={<Stdnt/>} ></Route>
+                        <Route path="/Cv" element={<Cv/>} ></Route>
+                        <Route path="/Fletter" element={<Fletter/>} ></Route>
+                        <Route path="/Bsns" element={<Bsns/>} ></Route>
+                        <Route path="/Envmemo" element={<Envmemo/>} ></Route>
     </Routes>
     <br />
-    <br />
+ 
   <Footer/>
+ 
     </BrowserRouter>
     </>
   )

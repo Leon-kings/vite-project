@@ -50,7 +50,7 @@ const Login =()=>{
       const dt = await axios.post('https://getcard.onrender.com/users/auth',values)
       .then(() =>{
         alert('User Logged in successfully');
-       Navigate('/')
+       Navigate('/Home')
         
       })
     }

@@ -1,13 +1,12 @@
 import React from 'react'
 import "../../css/pages/home.css"
-// import g from "../../assets/images/g.jpg"
+
 import App from '../../posts/bussiness/App'
 import { BiDownload, BiKey, BiMouse } from "react-icons/bi"
 import Appstudent from '../../posts/student/Appstudent'
 import { Link } from 'react-router-dom'
 import HomeEnv from '../../posts/envit/HomeEnv'
-// import Slideshow from "../../components/slide/Slideshow"
-// import { blog } from '../../assets/data/data'
+
 import env from "../../assets/images/envitation/env.png"
 import Letter from "../../assets/images/envitation/Letter.png"
 import DigitalBusinessCard from "../../assets/images/student/DigitalBusinessCard.png"
@@ -18,8 +17,8 @@ import AppC from '../../posts/rectCard/AppC'
 import hh from "../../assets/images/hh.jpg"
 import hg from "../../assets/images/hg.jpg"
 import hs from "../../assets/images/hs.jpg"
-// import AppSlide from "../../components/slyde/AppSlideSlide"
-import AppSlide from "../../components/slyde/AppSlide"
+// import Envit from "../../"
+// import AppSlide from "../../components/slyde/AppSlide"
 function Home() {
  
 
@@ -28,7 +27,7 @@ function Home() {
       <div>
 
 
-<AppSlide />
+{/* <AppSlide /> */}
       </div>
       <p style={{ fontSize: "17px",visibility:"hidden" }}>The versatile online document software that will streamline the creation of your proposals, reports, white papers, ebooks, survey results and other types of documents.</p>
       <div className='blog'>
@@ -44,9 +43,9 @@ function Home() {
                   </h4>
                   <span><b>Awesome and clean</b>  </span>
                   <div className="main-border-button">
-                    {/* <Link to="/Letters"> */}
+                    <Link to="/Letters">
                       <button className='btn' >View All</button>
-                      {/* </Link> */}
+                      </Link>
                   </div>
                 </div>
                 <img src={Letter} alt="" width={190} />
@@ -64,9 +63,9 @@ function Home() {
                     </h4>
                     <span><b>Awesome and clean</b>  </span>
                     <div className="main-border-button">
-                      {/* <Link to="/Letters"> */}
+                      <Link to="/Envit">
                         <button className='btn' >View All</button>
-                         {/* </Link> */}
+                         </Link>
 
                     </div>
                   </div>
@@ -139,10 +138,10 @@ function Home() {
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-                  {/* <Link to="/Envit"> */}
+                  <Link to="/Fletter">
 
                     <img src={Letter} style={{ width: "50%", height: "100px" }} />
-                  {/* </Link> */}
+                  </Link>
                   <br />
                   <h3>Friendly Letter</h3>
                   <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
@@ -160,11 +159,11 @@ function Home() {
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-                  <Link to="/View"> 
+                  <Link to="/Stdnt"> 
                   <img src={hh} style={{ width: "50%", height: "100px" }} />
                   </Link>
-                  <h3>card</h3>
-                  <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                  <h3>Student Card</h3>
+                  <p>Just some identification to your students to make secure and make them differ from identifiers .</p>
                 </div>
               </div>
 
@@ -181,11 +180,11 @@ function Home() {
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-                  {/* <Link to="/View">  */}
+                  <Link to="/Bsns"> 
                   <img src={hg} style={{ width: "50%", height: "100px" }} />
-                  {/* </Link> */}
-                  <h3>dcard</h3>
-                  <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                  </Link>
+                  <h3>Bussiness Card</h3>
+                  <p>Identification or something you can share to make recognation of your Company.</p>
                 </div>
               </div>
 
@@ -211,11 +210,11 @@ function Home() {
 
               <div className="w3-row-paddingw3-center" >
                 <div className="w3-quarter">
-                  {/* <Link to="/View">  */}
+                  <Link to="/Envmemo"> 
                   <img src={hh} style={{ width: "50%", height: "100px" }} />
-                  {/* </Link> */}
-                  <h3>Envitation card</h3>
-                  <p>Just ...some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                  </Link>
+                  <h3>Save the Date Memo</h3>
+                  <p>Just ...some the most happy heavenly date in your life is counted ,but your Wedding comes once and ever.</p>
                 </div>
               </div>
 
@@ -233,8 +232,8 @@ function Home() {
                   {/* <Link to="/View">  */}
                   <img src={hg} style={{ width: "50%", height: "100px" }} />
                   {/* </Link> */}
-                  <h3>card</h3>
-                  <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                  <h3>Official Letters</h3>
+                  <p>An official letters are the letter used in legal orin one of the organisation to ask for job , help , services .</p>
                 </div>
               </div>
 
@@ -251,11 +250,11 @@ function Home() {
 
               <div className="w3-row-padding  w3-center" >
                 <div className="w3-quarter">
-                  {/* <Link to="/View">  */}
+                  <Link to="/Cv"> 
                   <img src={hh} style={{ width: "50%", height: "100px" }} />
-                  {/* </Link> */}
-                  <h3>dcard</h3>
-                  <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                  </Link>
+                  <h3>CV</h3>
+                  <p>Just your proffessionalism.</p>
                 </div>
               </div>
 

@@ -114,13 +114,12 @@ console.log(backendData);
   }
   return(
     <>
-       <br /> <br />
-       <br />
-    <br />
+      
+
     <p style={{visibility:"hidden"}}> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos distinctio iste eius. Qui pariatur obcaecati quae doloribus tenetur cum ab autem, animi inventore accusantium assumenda quisquam eos magnam consectetur voluptatem.</p>
 
     <div className="app">
-    <br /> <br />
+   
       <form onSubmit={handleSubmit}>
        
         <h1>register</h1>
@@ -134,10 +133,8 @@ console.log(backendData);
       </form>
     </div>
     <br />
-    <br />    <br />
-    <br />  <br />
-    <br />    <br />
-    <br />
+   
+  
     </>
   )
 }
