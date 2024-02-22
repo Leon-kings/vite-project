@@ -12,7 +12,7 @@ import Services from "./pages/services/Services";
 import Letters from "./pages/letters/Letters";
 import Envit from "./pages/envit/Envit";
 import Create from "./pages/create/Create"
-import DetailsPages from "./posts/details/DetailsPages"
+// import details from "./pages/stdnt/details/details"
 import Dashboard from "./dashboard/Dashboard";
 // import Hm from "./user/home/Hm";
 // import { AuthProvider } from './pages/Auth/Autho';
@@ -44,9 +44,9 @@ function App() {
       <Route path="/Letters" element={<Letters/>} ></Route>
       <Route path="/Envit" element={<Envit/>} ></Route>
       <Route path="/Create" element={<Create/>} ></Route>
-      <Route path="/details/:id" component={<DetailsPages />} />
+      {/* <Route path="/details/:id" component={<details />} /> */}
       <Route path="/Dashboard" element={<Dashboard/>} ></Route>
-      {/* <Route path="/Home" element={<Hm/>} ></Route> */}
+      
                         <Route path="/Stdnt" element={<Stdnt/>} ></Route>
                         <Route path="/Cv" element={<Cv/>} ></Route>
                         <Route path="/Fletter" element={<Fletter/>} ></Route>

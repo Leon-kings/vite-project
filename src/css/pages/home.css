@@ -71,6 +71,7 @@
   display: inline;
   display: flex;
   flex-direction: row;
+ 
   
 }
 
@@ -98,10 +99,10 @@
 
 
 
-  .box {
-    border-bottom: 3px dotted #eee;
-    padding-top: 3cap;
-    padding-bottom: 30px;
+  .leftbutton .box {
+    border-bottom: 0px dotted #eee;
+    /* padding-top: 3cap;
+    padding-bottom: 30px; */
   }
   .header{ width: 100%;}
   .header p{

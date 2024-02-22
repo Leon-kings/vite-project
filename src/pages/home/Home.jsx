@@ -17,8 +17,7 @@ import AppC from '../../posts/rectCard/AppC'
 import hh from "../../assets/images/hh.jpg"
 import hg from "../../assets/images/hg.jpg"
 import hs from "../../assets/images/hs.jpg"
-// import Envit from "../../"
-// import AppSlide from "../../components/slyde/AppSlide"
+import Screenshot from "../../assets/images/New folder/Screenshot.png"
 function Home() {
  
 
@@ -35,13 +34,14 @@ function Home() {
         <p><h3 style={{ fontSize: "15px" }}><b> Create and share all types of beautfull documentation </b></h3>  </p>
         <p style={{ fontSize: "17px" }}>The versatile online document software that will streamline the creation of your proposals, reports, white papers, ebooks, survey results and other types of documents.</p>
         <div className='container grid3'>
+          
           <div className='box boxItems'>
             <div className='img'>
               <div class="thumb">
                 <div className="inner-content">
                   <h4 style={{ color: "grey" }}>Formal letter
                   </h4>
-                  <span><b>Awesome and clean</b>  </span>
+                  <span style={{visibility:"hidden"}}><b>Awesome and clean</b>  </span>
                   <div className="main-border-button">
                     <Link to="/Letters">
                       <button className='btn' >View All</button>
@@ -74,10 +74,11 @@ function Home() {
               </div>
 
             </div>
+            
           </div>
-          <div className='box boxItems'style={{paddingTop:"0px"}}>
-            <p><button>Create</button>Documents
-              <h4>Make proffessional documentation in a few seconds</h4></p>
+          <div className='box boxItems'>
+            {/* <p><button>Create</button>Documents
+              <h5>Make proffessional documentation in a few seconds</h5></p> */}
             <form className='form'>
               <p>	<label>More faster <input type="checkbox" name="checked" id="check" className='checked' checked /></label></p>
               <p><label>view more</label> <input type="checkbox" name="checked" id="check" className='checked' checked /></p>
@@ -91,7 +92,63 @@ function Home() {
 
         </div>
         {/* first floww */}
+        <div className="box">
 
+  <div className="container ">
+
+<div className="thumb">
+
+
+{/* main bland */}
+
+<div className="left">
+  <p>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document.</p>
+  <p>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document.</p>
+</div>
+<div className="left">
+
+<img src={Screenshot} alt='' style={{ width: "100%", height: "100%" }} />
+</div>
+
+
+
+</div>
+</div>
+        </div>
+
+
+
+
+
+
+
+        <div className="box">
+
+<div className="container ">
+
+<div className="thumb">
+
+
+{/* main bland */}
+
+<div className="left">
+<p>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document.</p>
+<p>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document.</p>
+</div>
+<div className="left">
+
+<img src={Screenshot} alt='' style={{ width: "100%", height: "100%" }} />
+</div>
+
+<div className="left">
+
+<img src={Screenshot} alt='' style={{ width: "100%", height: "100%" }} />
+</div>
+
+</div>
+</div>
+      </div>
+{/* main bland ends*/}
         <div className='header'>
           <p>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document. </p>
 
