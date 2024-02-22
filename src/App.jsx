@@ -43,7 +43,7 @@ function App() {
       <Route path="/View" element={<View/>} ></Route>
       <Route path="/Letters" element={<Letters/>} ></Route>
       <Route path="/Envit" element={<Envit/>} ></Route>
-      <Route path="/Create" element={<Create/>} ></Route>
+      {/* <Route path="/Create" element={<Create/>} ></Route> */}
       {/* <Route path="/details/:id" component={<details />} /> */}
       <Route path="/Dashboard" element={<Dashboard/>} ></Route>
       

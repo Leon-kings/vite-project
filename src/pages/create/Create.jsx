@@ -27,13 +27,53 @@ import Screenshot from "../../assets/images/New folder/Screenshot.png"
      
       {
         id:2,
-        name:"password",
-        type:"password",
-        placeholder:"password",
-        errorMessage:"passworx should be 8-12 characters include at least 1 letter and 1 symbol",
+        name:"social",
+        type:"text",
+        placeholder:"social",
+        errorMessage:"social is not lequired but you can put no problem ",
         label:"password",
       
+        required:false
+      },
+      {
+        id:3,
+        name:"tel",
+        type:"telephone",
+        placeholder:"Enter your telephone number",
+        errorMessage:"Your numbers are needed",
+        label:"Yours phone numbers",
         required:true
+      },
+     
+      {
+        id:4,
+        name:"location",
+        type:"text",
+        placeholder:"location like Kigali , Rwanda",
+        errorMessage:"location is required ",
+        label:"password",
+      
+        required:false
+      },
+      {
+        id:5,
+        name:"tel",
+        type:"telephone",
+        placeholder:"Enter your telephone number",
+        errorMessage:"Your numbers are needed",
+        label:"Yours phone numbers",
+        required:true
+      },
+     
+      {
+        id:4,
+        name:"location",
+        type:"text",
+        placeholder:"location like Kigali , Rwanda",
+        errorMessage:"location is required ",
+        label:"password",
+      
+        required:false
       },
      ];
      
@@ -129,10 +169,10 @@ return(
 
 
 <form style={{ display: "flex", flexDirection: "column", maxWidth: "300px", margin: "auto",padding:"20px" }}>
-<input type="text" name='name'  style={{ marginBottom: "1rem" }} placeholder='Text a name of document' required />
-<input type="text" name='tel'  style={{ marginBottom: "1rem" }} placeholder='Text your phone number' required />
-<input type="text" name='social'  style={{ marginBottom: "1rem" }}  placeholder='Place your linked account' />
-<input type="text" name='location'  style={{ marginBottom: "1rem" }}  placeholder='Kigali , Rwanda' required />
+{/* <input type="text" name='name'  style={{ marginBottom: "1rem" }} placeholder='Text a name of document' required /> */}
+{/* <input type="text" name='tel'  style={{ marginBottom: "1rem" }} placeholder='Text your phone number' required /> */}
+{/* <input type="text" name='social'  style={{ marginBottom: "1rem" }}  placeholder='Place your linked account' /> */}
+{/* <input type="text" name='location'  style={{ marginBottom: "1rem" }}  placeholder='Kigali , Rwanda' required /> */}
 <input type="text" name='responder title'  style={{ marginBottom: "1rem" }}  placeholder='Place receiver Title' required/>
 <input type="text" name='address'  style={{ marginBottom: "1rem" }}  placeholder='Place receiver address' />
 <input type="text" name='graduation'  style={{ marginBottom: "1rem" }}  placeholder='Place your graduation fields in few words' />
