@@ -182,12 +182,12 @@ return(
  <p><label> Nyuma yiyo mihango abatumiwe bazakiririrwa {values.location}</label></p>
  <label htmlFor="info"> <h3>Kuza kwanyu n`inkunga ikomeye cyane</h3></label>
  <div className='left'>
- <h4><u>Claire</u> </h4>
-
+ <h4><u>{values.malename}</u> </h4>
+<p>{values.phone}</p>
 </div>
 <div className="left">
- <h4><u> Claude</u></h4>
-
+ <h4><u>{values.wifename} </u></h4>
+<p>{values.num}</p>
   </div>
  <br />
 
