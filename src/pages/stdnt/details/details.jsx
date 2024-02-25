@@ -1,28 +1,28 @@
 
 import React, { useState } from "react"
-// import "../../../css/posts/details/single.css"
+import Screenshoot from "../../../assets/images/New folder/Screenshoot.png"
 import { useParams } from "react-router-dom"
 import { useEffect } from "react"
 import blogPost from '../blog.json';
 
 export const DetailsPages = () => {
   const { id } = useParams()
-  const [blogs, setBlogs] = useState(null)
+  const [posts, setPosts] = useState([]);
 
- useEffect(() => {
-    let blogs = blogPost.find((blogs) => blogs.id === parseInt(id))
-    if (blogs) {
-      setBlogs(blogs)
-    }
-  }, [])
+  useEffect(()=>{
+
+    const posts = blogPost.data;
+    setPosts(posts);
+  }, posts);
 
   return (
     <>
       {blogs ? (
         <section className='singlePage'>
+          <img src={Screenshoot} alt="" />
           <div className='container'>
             <div className='left'>
-              <img src={blogs.cover} alt='' />
+              <img src={posts.blogImage.id} alt='' />
             </div>
            
           </div>

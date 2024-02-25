@@ -3,14 +3,14 @@
       {
           "id": 1,
 
-          "blogImage": "https://images.pexels.com/photos/681335/pexels-photo-681335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+          "blogImage": "../../assets/images/New folder/Screenshot.png",
           "text":""
          
       },
       {
         "id": 1,
 
-        "blogImage": "https://images.pexels.com/photos/681335/pexels-photo-681335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "blogImage": "../../assets/images/New folder/Screenshot.png",
         "text":""
            }
     ]}

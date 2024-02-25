@@ -6,7 +6,7 @@ function Info() {
   return (
    <>
 
-    <div className="Card" style={{border:"11px solid black",padding:"12px"}}>
+    <div className="Card" style={{border:"8px solid black",padding:"12px"}}>
         <div>
                 <div className="left">
                   <p style={{padding:"0px",margin:"0px",textAlign:"left"}}> <img src={g} alt="" style={{width:"45px",height:"35px"}} /> </p> 

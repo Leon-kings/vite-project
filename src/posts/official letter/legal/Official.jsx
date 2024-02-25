@@ -7,7 +7,7 @@ function App() {
 
   return (<>
     <div className="card--container">
-      <div className="card">
+      <div className="cardd">
         <Info />
 
 

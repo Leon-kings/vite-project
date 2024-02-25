@@ -3,14 +3,14 @@
       {
           "id": 1,
 
-          "blogImage": "../../assets/images/New folder/Screenshot.png",
-          "text":""
+          "blogImage": "https://images.pexels.com/photos/681335/pexels-photo-681335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+          "text":"Official Letter for job"
          
       },
       {
         "id": 2,
 
         "blogImage": "https://images.pexels.com/photos/681335/pexels-photo-681335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-        "text":""
+        "text":"Official Letter for applying for school "
            }
     ]}

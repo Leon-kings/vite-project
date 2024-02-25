@@ -1,12 +1,12 @@
 import React from 'react'
 import "../../css/pages/home.css"
-
+import BussCreate from "../create/business/BussCreate"
 import App from '../../posts/bussiness/App'
 import { BiDownload, BiKey, BiMouse } from "react-icons/bi"
 import Appstudent from '../../posts/student/Appstudent'
 import { Link } from 'react-router-dom'
 import HomeEnv from '../../posts/envit/HomeEnv'
-
+// import Officier from "../../posts/official letter/Officier"
 import env from "../../assets/images/envitation/env.png"
 import Letter from "../../assets/images/envitation/Letter.png"
 import DigitalBusinessCard from "../../assets/images/student/DigitalBusinessCard.png"
@@ -18,6 +18,14 @@ import hh from "../../assets/images/hh.jpg"
 import hg from "../../assets/images/hg.jpg"
 import hs from "../../assets/images/hs.jpg"
 import Screenshot from "../../assets/images/New folder/Screenshot.png"
+import Screenshot1 from "../../assets/images/New folder/Screenshot1.png"
+import Screenshot2 from "../../assets/images/New folder/Screenshot2.png"
+// import Screenshot3 from "../../assets/images/New folder/Screenshot3.png"
+import Screenshot4 from "../../assets/images/New folder/Screenshot4.jpg"
+import screenshot from "../../assets/images/New folder/screenshot.jpg"
+import screenshot1 from "../../assets/images/New folder/screenshot1.jpg"
+import screenshot2 from "../../assets/images/New folder/screenshot2.jpg"
+// import screenshot3 from "../../assets/images/New folder/screenshot3.jpg"
 function Home() {
  
 
@@ -102,7 +110,7 @@ function Home() {
 {/* main bland */}
 
 <div className="left">
-  <p>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document.</p>
+  {/* <p>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document.</p> */}
   <p>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document.</p>
 </div>
 <div className="left">
@@ -124,6 +132,67 @@ function Home() {
 
         <div className="box">
 
+
+
+        <div className="container ">
+
+<div className="thumb">
+
+
+{/* main bland */}
+
+<div className="left">
+
+<p>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document.</p>
+</div>
+<div className="left">
+
+<img src={Screenshot2} alt='' style={{ width: "90%", height: "70%"  }} />
+</div>
+
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+{/* 
+<div className="container ">
+
+<div className="thumb">
+
+
+{/* main bland */}
+
+{/* <div className="left">
+
+<p>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document.</p>
+</div>
+<div className="left">
+
+<img src={Screenshot3} alt='' style={{ width: "100%" ,height:"70%" }} />
+
+</div>
+
+
+</div>
+</div> */} 
+
+
+
+
+
+
+
+
+
+
 <div className="container ">
 
 <div className="thumb">
@@ -132,18 +201,19 @@ function Home() {
 {/* main bland */}
 
 <div className="left">
-<p>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document.</p>
+{/* <p>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document.</p> */}
 <p>Our easy-to-use, fully customizable document templates give you a quick and easy starting point to create your documents. Our hundreds of professionally designed document templates contain carefully researched and crafted content to make it easier for you to create your next document.</p>
 </div>
 <div className="left">
 
-<img src={Screenshot} alt='' style={{ width: "100%", height: "100%" }} />
+<img src={Screenshot1} alt='' style={{ width: "100%" }} />
 </div>
-
 <div className="left">
 
-<img src={Screenshot} alt='' style={{ width: "100%", height: "100%" }} />
+<img src={Screenshot4} alt='' style={{ width: "100%" }} />
 </div>
+
+
 
 </div>
 </div>
@@ -197,7 +267,7 @@ function Home() {
                 <div className="w3-quarter">
                   <Link to="/Fletter">
 
-                    <img src={Letter} style={{ width: "50%", height: "100px" }} />
+                    <img src={Letter} style={{ width: "100%", height: "100%" }} />
                   </Link>
                   <br />
                   <h3>Friendly Letter</h3>
@@ -217,7 +287,7 @@ function Home() {
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
                   <Link to="/Stdnt"> 
-                  <img src={hh} style={{ width: "50%", height: "100px" }} />
+                  <img src={screenshot1} style={{ width: "100%", height: "100%" }} />
                   </Link>
                   <h3>Student Card</h3>
                   <p>Just some identification to your students to make secure and make them differ from identifiers .</p>
@@ -238,7 +308,7 @@ function Home() {
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
                   <Link to="/Bsns"> 
-                  <img src={hg} style={{ width: "50%", height: "100px" }} />
+                  <img src={hg} style={{ width: "100%"  }} />
                   </Link>
                   <h3>Bussiness Card</h3>
                   <p>Identification or something you can share to make recognation of your Company.</p>
@@ -253,7 +323,7 @@ function Home() {
         </div>
 
 
-
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, error earum. Vel nostrum voluptatibus veritatis quod quibusdam rerum ducimus enim sed dignissimos quo sequi atque, at, quisquam perspiciatis expedita. Quae.</p>
 
         {/* third flow */}
 
@@ -268,7 +338,7 @@ function Home() {
               <div className="w3-row-paddingw3-center" >
                 <div className="w3-quarter">
                   <Link to="/Envmemo"> 
-                  <img src={hh} style={{ width: "50%", height: "100px" }} />
+                  <img src={screenshot} style={{ width: "100%", height: "100%" }} />
                   </Link>
                   <h3>Save the Date Memo</h3>
                   <p>Just ...some the most happy heavenly date in your life is counted ,but your Wedding comes once and ever.</p>
@@ -286,9 +356,9 @@ function Home() {
 
               <div className="w3-row-padding w3-center" >
                 <div className="w3-quarter">
-                  {/* <Link to="/View">  */}
-                  <img src={hg} style={{ width: "50%", height: "100px" }} />
-                  {/* </Link> */}
+                  <Link to="/Officier"> 
+                  <img src={hg} style={{ width: "100%"}} />
+                  </Link>
                   <h3>Official Letters</h3>
                   <p>An official letters are the letter used in legal orin one of the organisation to ask for job , help , services .</p>
                 </div>
@@ -308,7 +378,7 @@ function Home() {
               <div className="w3-row-padding  w3-center" >
                 <div className="w3-quarter">
                   <Link to="/Cv"> 
-                  <img src={hh} style={{ width: "50%", height: "100px" }} />
+                  <img src={screenshot2} style={{ width: "100%", height: "100%" }} />
                   </Link>
                   <h3>CV</h3>
                   <p>Just your proffessionalism.</p>
@@ -351,7 +421,7 @@ function Home() {
 
               <div className='box boxItems'>
                 <div>
-                  <Link to="">
+                  <Link to="/Send">
                   <BiMouse className='icon' />
                   <h3>Brourse all</h3>
                   <label htmlFor="share">Send you a link on email</label></Link>
@@ -376,8 +446,9 @@ function Home() {
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-
+              <Link to="/BussCreate">
                   <App />
+                   </Link>
                   <h3>Bussiness card</h3>
                   <p>The best card for your bussiness or your proffessional worker.</p>
                 </div>
@@ -417,7 +488,9 @@ function Home() {
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
+                   <Link to="/EnvCreate">
                   <HomeEnv />
+                    </Link>
                   <br />
                   <br />
                   <hr />
@@ -436,16 +509,16 @@ function Home() {
         <div className='container grid3'>
 
           <div className='box boxItems'>
-            <div className="w3-main w3-content w3-padding" style={{ width: "100%", marginTop: "100px" }}>
+            <div className="w3-main w3-content w3-padding" style={{ width: "100%", marginTop: "10px" }}>
 
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-                  {/* <Link to="/View"> */}
+                  <Link to="/Screate">
                     <Apps /> 
-                    {/* </Link> */}
-                  <h3>Company internal letter</h3>
-                  <p>Just some internal company letter to inform members some changes happened.</p>
+                    </Link>
+                  <h3>School Application letter</h3>
+                  <p>Just some school recruit require Application Letter.</p>
                 </div>
               </div>
 
@@ -455,16 +528,16 @@ function Home() {
           </div>
 
           <div className='box boxItems'>
-            <div className="w3-main w3-content w3-padding" style={{ width: "100%", marginTop: "100px" }}>
+            <div className="w3-main w3-content w3-padding" style={{ width: "100%", marginTop: "10px" }}>
 
 
               <div className="w3-row-padding w3-padding-16 w3-center" >
                 <div className="w3-quarter">
-                  {/* <Link to="/View">  */}
+                  <Link to="/Create"> 
                   
                   <Official />
                   
-                  {/* </Link> */}
+                  </Link>
                   <h3>Official letter</h3>
                   <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
                 </div>

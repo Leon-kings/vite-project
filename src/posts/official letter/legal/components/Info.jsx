@@ -1,19 +1,25 @@
 import React from 'react'
-// 
 
 export default function Info() {
     return (
         <div className="card--info">
-            <div className="left" style={{width:"50%", visibility:"hidden"}}> Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
-           <div className="left">
+            <div>
+            
+           <div className="right" >
             <p style={{padding:"0px",margin:"0px",textAlign:"left"}}>AKINGENEYE</p>
             <p style={{padding:"0px",margin:"0px",textAlign:"left"}} >+250787944577</p>
             <p style={{padding:"0px",margin:"0px",textAlign:"left"}}>Kigali,Rwanda</p>
-            <p style={{padding:"0px",margin:"0px",textAlign:"left"}}>On 23 <sup>th</sup> September 2023</p>
+            <p style={{padding:"0px",margin:"0px",textAlign:"left"}}>On 23 <sup style={{fontSize:"10px"}}>th</sup> September 2023</p>
            </div>
-           <div className="left">
+           </div>
+           <br />
+           <br />
+           <br />
+           <br />
+           <div className="left" style={{float:"left"}}>
             <p style={{padding:"0px",margin:"0px",textAlign:"left"}}>Director of DHS</p>
             <p style={{padding:"0px",margin:"0px",textAlign:"left"}}>Kigali,Rwanda</p>
+            <p style={{padding:"0px",margin:"0px",textAlign:"left"}}>Dear Sir,</p>
            </div>
           
     <div className="full">

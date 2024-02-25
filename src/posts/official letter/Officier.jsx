@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 import blogPost from './blog.json';
 import { Link } from 'react-router-dom';
 
-// import Screenshot from "../../assets/images/New folder/Screenshot.png"
+
 const Sidebar  = (props) => {
 
   const [posts, setPosts] = useState([]);
@@ -27,15 +27,7 @@ const Sidebar  = (props) => {
 
     return(
 
-     
-
-
-
-
-
-
-      
-
+    
       <div >
 
 
@@ -51,7 +43,7 @@ const Sidebar  = (props) => {
 </div>
 
 
-      //  </div>
+ 
            
      
 

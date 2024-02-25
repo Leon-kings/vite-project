@@ -220,3 +220,7 @@ footer .icon {
 .link {
   color: #800606;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
